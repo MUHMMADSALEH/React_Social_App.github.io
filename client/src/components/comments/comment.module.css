@@ -1,0 +1,56 @@
+.container{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-height: 200px;
+    overflow: scroll;
+}
+.textarea{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.input{
+    border: 1px solid gray;
+    padding: 7px;
+    width: 500px;
+}
+.btn{
+    padding: 7px;
+    border: 1px solid transparent;
+    background-color: #5271ff;
+}
+.comment{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+
+}
+.user{
+display: flex;
+align-items: center;
+gap: 5px;
+}
+.img{
+width: 30px;
+height: 30px;
+border-radius: 50%;
+}
+.name{
+ font-weight: 500;
+}
+.desc{
+    width: 500px;
+}
+.info{
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin-left: 35px;
+}
+.date{
+font-size: 12px;
+color: gray;
+}

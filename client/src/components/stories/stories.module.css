@@ -1,0 +1,47 @@
+.stories{
+display: flex;
+gap: 6px;
+height: 180px;
+margin:0px 30px;
+margin-bottom: 30px; 
+
+}
+.story{
+  
+    width: 130px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    
+}
+.img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+.name{
+position: absolute;
+bottom: 10px;
+left: 10px;
+color: white;
+font-weight: 500;
+}
+.btn{
+  
+    position: absolute;
+    bottom: 20px;
+    top: 121px;
+    left: 15px;
+    color: white;
+    background-color: #5271ff;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
